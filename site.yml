@@ -1,0 +1,6 @@
+---
+- name: SSH key management
+  hosts: all
+  gather_facts: false
+  roles:
+    - manage_ssh_keys

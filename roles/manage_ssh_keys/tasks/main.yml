@@ -1,0 +1,7 @@
+---
+- name: SSH key management
+  ansible.posix.authorized_key:
+    user: "{{ ssh_user }}"
+    state: present
+    key: "{{ (base_ssh_keys + (inventory_ssh_keys | default([], true))) | join('\n') }}"
+    exclusive: true
