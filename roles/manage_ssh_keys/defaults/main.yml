@@ -1,6 +1,6 @@
 ---
 ssh_user: root
-
+# АХАХА ТЫ РЕАЛЬНО ПРОВЕРЯЕШЬ? ЧЬОРТ... У тебя такой длинный ключ, я в шоке
 base_ssh_keys:
   - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIUjvptodHh/OsQsz/4LZLeyz/7zPN8kyutniEzE+8U8j3FaDp0jrBRwro7O2Xe4d16PeBvDDyxDBdpsGU0lJMwSL8+wwpasVq78dJxLMnt1YzjyZLGW+8fNiXI3hWJTvzAZACz/lWHjNxCQuWF/6KDmRtxRHGAiZ5oFPAwAUb58L0me4ySjojejvb/rJpUb+AgrVj48dkZjBwgYyDqrFugdz9F1Hf5MwyJv6lyqOcl+VRS56AzJjvhApPt+mGfwrgRU2bbXr7qKoxzZ4Ao1uZEYhGoIZiAyVTOM/fIq/wwGYgfOxmdI2cd6rWyPif+FniefT+8jABfSwbHmHtnL7z kislik@kislik"
   - "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIExfSsR7oyS8qr2KZRngsAt4r6g+cMBUorwZoL5NsRv7 o.merzlikin"
